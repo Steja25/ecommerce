@@ -41,7 +41,7 @@ public class PaymentService {
                 .orderId(request.getOrderId())
                 .userId(request.getUserId())
                 .amount(request.getAmount())
-                .status("PENDING")
+                .status("Success")
                 .razorpayPaymentId(razorpayOrder.get("id"))
                 .build();
 
